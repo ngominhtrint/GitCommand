@@ -14,6 +14,7 @@
 		EBEAE03224DD36E1001903DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEAE03124DD36E1001903DE /* Assets.xcassets */; };
 		EBEAE03524DD36E1001903DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEAE03324DD36E1001903DE /* LaunchScreen.storyboard */; };
 		EBEAE04024DD36E1001903DE /* GitCommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEAE03F24DD36E1001903DE /* GitCommandTests.swift */; };
+		EBEAE04B24DD37DC001903DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEAE04A24DD37DC001903DE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EBEAE03B24DD36E1001903DE /* GitCommandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitCommandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEAE03F24DD36E1001903DE /* GitCommandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommandTests.swift; sourceTree = "<group>"; };
 		EBEAE04124DD36E1001903DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEAE04A24DD37DC001903DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				EBEAE03124DD36E1001903DE /* Assets.xcassets */,
 				EBEAE03324DD36E1001903DE /* LaunchScreen.storyboard */,
 				EBEAE03624DD36E1001903DE /* Info.plist */,
+				EBEAE04A24DD37DC001903DE /* User.swift */,
 			);
 			path = GitCommand;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBEAE04B24DD37DC001903DE /* User.swift in Sources */,
 				EBEAE02D24DD36E0001903DE /* ViewController.swift in Sources */,
 				EBEAE02924DD36E0001903DE /* AppDelegate.swift in Sources */,
 				EBEAE02B24DD36E0001903DE /* SceneDelegate.swift in Sources */,

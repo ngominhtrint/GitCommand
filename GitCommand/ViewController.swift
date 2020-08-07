@@ -17,6 +17,8 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        print("Checkout new branch: feature1")
     }
 
 }

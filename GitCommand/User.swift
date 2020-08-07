@@ -14,5 +14,7 @@ struct User {
     
     init(name: String) {
         self.name = name
+        
+        print("init User")
     }
 }
